@@ -1,0 +1,20 @@
+ <?php  
+ $sql=mysql_query(" UPDATE contactos SET  
+ id_manager = '$contactos_id_manager'  
+ ,  sexo = '$contactos_sexo'  
+ ,  nombres = '$contactos_nombres'  
+ ,  apellidos = '$contactos_apellidos'  
+ ,  cedula = '$contactos_cedula'  
+ ,  pais = '$contactos_pais'  
+ ,  provincia = '$contactos_provincia'  
+ ,  ciudad = '$contactos_ciudad'  
+ ,  direccion = '$contactos_direccion'  
+ ,  cpostal = '$contactos_cpostal'  
+ ,  email = '$contactos_email'  
+ ,  facebook = '$contactos_facebook'  
+ ,  linkedin = '$contactos_linkedin'  
+ ,  fecha_nacimiento = '$contactos_fecha_nacimiento'  
+ ,  fecha_registro = '$contactos_fecha_registro'  
+ ,  foto = '$contactos_foto'  
+ ,  estatus = '$contactos_estatus'  
+ WHERE id = '$contactos_id' ",$conexion) or die ("Error: ".mysql_error());   

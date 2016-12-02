@@ -1,0 +1,23 @@
+ <?php  
+ $sql=mysql_query(" UPDATE empresas SET  
+ id_propietario = '$empresas_id_propietario'  
+ ,  sitio_web = '$empresas_sitio_web'  
+ ,  nombre = '$empresas_nombre'  
+ ,  tipo = '$empresas_tipo'  
+ ,  sector_actividad = '$empresas_sector_actividad'  
+ ,  pais = '$empresas_pais'  
+ ,  provincia = '$empresas_provincia'  
+ ,  ciudad = '$empresas_ciudad'  
+ ,  cpostal = '$empresas_cpostal'  
+ ,  direccion = '$empresas_direccion'  
+ ,  tel = '$empresas_tel'  
+ ,  fax = '$empresas_fax'  
+ ,  email = '$empresas_email'  
+ ,  twitter = '$empresas_twitter'  
+ ,  google_plus = '$empresas_google_plus'  
+ ,  facebook = '$empresas_facebook'  
+ ,  linkedin = '$empresas_linkedin'  
+ ,  empresa_contacto = '$empresas_empresa_contacto'  
+ ,  empresa_contacto_email = '$empresas_empresa_contacto_email'  
+ ,  estatus = '$empresas_estatus'  
+ WHERE id = '$empresas_id' ",$conexion) or die ("Error: ".mysql_error());   

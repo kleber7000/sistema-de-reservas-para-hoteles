@@ -1,0 +1,39 @@
+ <?php 
+ $datos= [
+            "contactos"=>[ "id"=>"$contactos_id",  
+ "id_manager"=>"$contactos_id_manager",  
+ "sexo"=>"$contactos_sexo",  
+ "nombres"=>"$contactos_nombres",  
+ "apellidos"=>"$contactos_apellidos",  
+ "cedula"=>"$contactos_cedula",  
+ "pais"=>"$contactos_pais",  
+ "provincia"=>"$contactos_provincia",  
+ "ciudad"=>"$contactos_ciudad",  
+ "direccion"=>"$contactos_direccion",  
+ "cpostal"=>"$contactos_cpostal",  
+ "email"=>"$contactos_email",  
+ "facebook"=>"$contactos_facebook",  
+ "linkedin"=>"$contactos_linkedin",  
+ "fecha_nacimiento"=>"$contactos_fecha_nacimiento",  
+ "fecha_registro"=>"$contactos_fecha_registro",  
+ "foto"=>"$contactos_foto",  
+ "estatus"=>"$contactos_estatus",  
+                ]
+        ];  $html = str_replace('%contactos_id%',       $datos['contactos']['id'], $html); 
+  $html = str_replace('%contactos_id_manager%',       $datos['contactos']['id_manager'], $html); 
+  $html = str_replace('%contactos_sexo%',       $datos['contactos']['sexo'], $html); 
+  $html = str_replace('%contactos_nombres%',       $datos['contactos']['nombres'], $html); 
+  $html = str_replace('%contactos_apellidos%',       $datos['contactos']['apellidos'], $html); 
+  $html = str_replace('%contactos_cedula%',       $datos['contactos']['cedula'], $html); 
+  $html = str_replace('%contactos_pais%',       $datos['contactos']['pais'], $html); 
+  $html = str_replace('%contactos_provincia%',       $datos['contactos']['provincia'], $html); 
+  $html = str_replace('%contactos_ciudad%',       $datos['contactos']['ciudad'], $html); 
+  $html = str_replace('%contactos_direccion%',       $datos['contactos']['direccion'], $html); 
+  $html = str_replace('%contactos_cpostal%',       $datos['contactos']['cpostal'], $html); 
+  $html = str_replace('%contactos_email%',       $datos['contactos']['email'], $html); 
+  $html = str_replace('%contactos_facebook%',       $datos['contactos']['facebook'], $html); 
+  $html = str_replace('%contactos_linkedin%',       $datos['contactos']['linkedin'], $html); 
+  $html = str_replace('%contactos_fecha_nacimiento%',       $datos['contactos']['fecha_nacimiento'], $html); 
+  $html = str_replace('%contactos_fecha_registro%',       $datos['contactos']['fecha_registro'], $html); 
+  $html = str_replace('%contactos_foto%',       $datos['contactos']['foto'], $html); 
+  $html = str_replace('%contactos_estatus%',       $datos['contactos']['estatus'], $html); 
