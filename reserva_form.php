@@ -25,35 +25,19 @@
 
 
     <div class="form-group">
-        <label for="exampleInputPassword1">Huespedes</label>
+        <label for="pax">Huespedes</label>
         <div class="input-group">
         <select class="form-control" name="pax">
             <optgroup label="Casa Sayani">
                 <option value="1">1 Huesped (10 USD/noche)</option>
-                <option value="1">2 Huespedes (20 USD/noche)</option>
-                <option value="1">3 Huespedes (30 USD /noche)</option>
-                <option value="1">4 Huespedes (40 USD /noche)</option>
-                <option value="1">5 Huespedes (50 USD /noche)</option>
-                <option value="1">6 Huespedes (60 USD /noche)</option>
+                <option value="2">2 Huespedes (20 USD/noche)</option>
+                <option value="3">3 Huespedes (30 USD /noche)</option>
+                <option value="4">4 Huespedes (40 USD /noche)</option>
+                <option value="5">5 Huespedes (50 USD /noche)</option>
+                <option value="6">6 Huespedes (60 USD /noche)</option>
             </optgroup>
 
-            <optgroup label="Casa Erica">
-                <option value="1">1 Huesped (10 USD/noche)</option>
-                <option value="1">2 Huespedes (20 USD/noche)</option>
-                <option value="1">3 Huespedes (30 USD /noche)</option>
-                <option value="1">4 Huespedes (40 USD /noche)</option>
-                <option value="1">5 Huespedes (50 USD /noche)</option>
-                <option value="1">6 Huespedes (60 USD /noche)</option>
-            </optgroup>
-
-            <optgroup label="Casa Javier">
-                <option value="1">1 Huesped (10 USD/noche)</option>
-                <option value="1">2 Huespedes (20 USD/noche)</option>
-                <option value="1">3 Huespedes (30 USD /noche)</option>
-                <option value="1">4 Huespedes (40 USD /noche)</option>
-                <option value="1">5 Huespedes (50 USD /noche)</option>
-                <option value="1">6 Huespedes (60 USD /noche)</option>
-            </optgroup>
+            
 
 
         </select>

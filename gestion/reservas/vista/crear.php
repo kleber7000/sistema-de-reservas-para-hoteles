@@ -2,7 +2,7 @@
 
     <span class="glyphicon glyphicon-<?php echo _menu_icono_segun_pagina($p); ?>"></span> 
 
-    <?php _t("Nuevo reservas"); ?></h2> 
+    <?php _t("Nueva reserva"); ?></h2> 
 
 </h2> 
 
@@ -12,7 +12,7 @@
     <input type="hidden" name="a" value="crear"> 
 
     <div class="form-group"> 
-        <label for="reservas_id_casa" class="col-sm-2 control-label"><?php _t("Id_casa"); ?></label> 
+        <label for="reservas_id_casa" class="col-sm-2 control-label"><?php _t("Casa"); ?></label> 
         <div class="col-sm-3"> 
             <div class="input-group">
             <select class="form-control" name="reservas_id_casa">
@@ -25,7 +25,7 @@
 
 
     <div class="form-group"> 
-        <label for="reservas_id_contacto" class="col-sm-2 control-label"><?php _t("Id_contacto"); ?></label> 
+        <label for="reservas_id_contacto" class="col-sm-2 control-label"><?php _t("Contacto"); ?></label> 
         <div class="col-sm-10"> 
             <select class="form-control" name="reservas_id_casa">
                 <?php contactos_add(); ?>
@@ -35,7 +35,7 @@
 
 
     <div class="form-group"> 
-        <label for="reservas_fecha_entrada" class="col-sm-2 control-label"><?php _t("Fecha_entrada"); ?></label> 
+        <label for="reservas_fecha_entrada" class="col-sm-2 control-label"><?php _t("Fecha entrada"); ?></label> 
         <div class="col-sm-3"> 
             <div class="input-group">
             <input type="facha" class="form-control" name="reservas_fecha_entrada" id="reservas_fecha_entrada" placeholder="<?php _t("Fecha_entrada"); ?>" value=""   > 
@@ -46,7 +46,7 @@
 
 
     <div class="form-group"> 
-        <label for="reservas_fecha_salida" class="col-sm-2 control-label"><?php _t("Fecha_salida"); ?></label> 
+        <label for="reservas_fecha_salida" class="col-sm-2 control-label"><?php _t("Fecha salida"); ?></label> 
         <div class="col-sm-3"> 
             <div class="input-group">
             <input type="facha" class="form-control" name="reservas_fecha_salida" id="reservas_fecha_salida" placeholder="<?php _t("Fecha_salida"); ?>" value=""   > 
@@ -78,7 +78,7 @@
     
 
     <div class="form-group"> 
-        <label for="reservas_precio_noche_persona" class="col-sm-2 control-label"><?php _t("Precio_noche_persona"); ?></label> 
+        <label for="reservas_precio_noche_persona" class="col-sm-2 control-label"><?php _t("Precio noche / persona"); ?></label> 
         <div class="col-sm-3"> 
             <div class="input-group">
                  <span class="input-group-addon">$</span>

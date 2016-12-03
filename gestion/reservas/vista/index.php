@@ -9,12 +9,12 @@
     <thead>
         <tr> <td>#</td>
 
- <th><?php echo _t("Id_casa"); ?></th> 
- <th><?php echo _t("Id_contacto"); ?></th> 
- <th><?php echo _t("Fecha_entrada"); ?></th> 
- <th><?php echo _t("Fecha_salida"); ?></th> 
- <th><?php echo _t("Pax"); ?></th> 
- <th><?php echo _t("Precio_noche_persona"); ?></th> 
+ <th><span class="glyphicon glyphicon-home"></span> <?php echo _t("Casa"); ?></th> 
+ <th><span class="glyphicon glyphicon-user"></span> <?php echo _t("Contacto"); ?></th> 
+ <th><span class="glyphicon glyphicon-calendar"></span> <?php echo _t("Fecha E"); ?></th> 
+ <th><span class="glyphicon glyphicon-calendar"></span> <?php echo _t("Fecha S"); ?></th> 
+ <th><span class="glyphicon glyphicon-user"></span> <?php echo _t("Pax"); ?></th> 
+ <th><span class="glyphicon glyphicon-bitcoin"></span> <?php echo _t("Precio_noche_persona"); ?></th> 
  <th><?php echo _t("Notas"); ?></th> 
  <th><?php echo _t("Estatus"); ?></th> 
  <th><?php echo _t("Accion"); ?></th> 

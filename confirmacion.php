@@ -1,3 +1,6 @@
+<?php
+include "./admin/traductor.php";
+?>
 <!DOCTYPE html>
 <html lang="es">
     <head>
@@ -36,39 +39,137 @@
         <div class="navbar-wrapper">
             <div class="container">
                 <?php include "nav_superior.php"; ?>
-                
+
             </div>
         </div>
 
 
-        
+
         <?php //include "carrusel.php"; ?>
-        
+
         <!-- Marketing messaging and featurettes
         ================================================== -->
         <!-- Wrap the rest of the page in another container to center all the content. -->
 
         <div class="container marketing">
 
-            <h1>Confirmacion</h1>
-            <h1>Confirmacion</h1>
+            <h1>Casa Javier</h1>
+
 
             
+
+
+
+
             
 
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Detalles de la reserva</h2>
+
+
+
+
+
+                    <ul class="list-group">
+                        <li class="list-group-item"><span class="glyphicon glyphicon-calendar"></span> <b>Fecha de llegada: </b>12 feb 2016</li>
+                        <li class="list-group-item"><span class="glyphicon glyphicon-calendar"></span> Fecha de salida: 15 feb 2016</li>
+                        <li class="list-group-item">Total de noches: 3</li>
+                        <li class="list-group-item"><span class="glyphicon glyphicon-usd"></span> Precio por noche: <b>10 </b></li>
+                        <li class="list-group-item"><span class="glyphicon glyphicon-user"></span> Huespedes: 5</li>
+                        <li class="list-group-item"><span class="glyphicon glyphicon-usd"></span> Total a pagar: 150,00</li>
+                    </ul>
+
+
+                    <h2>Continuar con la reserva</h2>
+
+
+                    <form>
+                        
+                        <div class="form-group">
+                            <label for="nombres"><?php _t("Nombres"); ?></label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="nombres"><?php _t("Apelidos"); ?></label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="exampleInputEmail1"><?php _t("Telefono"); ?></label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="exampleInputPassword1"><?php _t("Email"); ?></label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+
+                        
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"> <?php _t("Acepto las condiciones de venta"); ?>
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+
+
+
+
+
+
+
+                    
+
+
+
+
+
+
+
+                </div>
+                <div class="col-md-5">
+
+                    
+                </div>
+            </div>
+
+
+
+
             <hr class="featurette-divider">
 
 
-
-            <hr class="featurette-divider">
-
-
-
-            <hr class="featurette-divider">
-
+            
 
             <hr class="featurette-divider">
 
             <!-- /END THE FEATURETTES -->
 
-<?php include "footer.php"; ?>
+
+
+
+
+
+            <?php
+            /* <!-- Large modal -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
+
+              <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+              <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+              <?php
+              include "./galeria.php";
+              ?>
+              </div>
+              </div>
+              </div> */
+            ?>
+
+
+
+            <?php include "footer.php"; ?>

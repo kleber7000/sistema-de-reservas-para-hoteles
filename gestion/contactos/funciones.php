@@ -26,13 +26,13 @@ function contactos_campo_add($campo, $label, $selecionado = "", $excluir = "") {
 function contactos_add($selecionado="",$excluir=""){  
 global $conexion; 
 $sql=mysql_query(
-        "SELECT * FROM contactos  ",$conexion) or die ("Error:".mysql_error());
+        "SELECT * FROM contactos order by apellidos, nombres  ",$conexion) or die ("Error:".mysql_error());
 while ($contactos = mysql_fetch_array($sql)) {
     
    echo "<option "; 
    if($selecionado==$contactos[0]) {echo " selected "; } else {echo ""; }
    if($excluir==$contactos[0]) {echo " disabled "; } else {echo ""; }
-   echo "value=\"$contactos[0]\">$contactos[apellidos], $contactos[nombres]</option>";
+   echo "value=\"$contactos[0]\">". strtoupper($contactos[apellidos]).", $contactos[nombres]</option>";
 } 
 }
 
