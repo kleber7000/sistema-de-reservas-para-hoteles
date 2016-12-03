@@ -20,12 +20,16 @@
 <th><?php _t("Ciudad"); ?></th> 
 <th><?php _t("Direccion"); ?></th> 
 <th><?php _t("Cpostal"); ?></th> 
+<th><?php _t("Telefono_casa"); ?></th> 
+<th><?php _t("Telefono_trabajo"); ?></th> 
+<th><?php _t("Telefono_mobil"); ?></th> 
 <th><?php _t("Email"); ?></th> 
 <th><?php _t("Facebook"); ?></th> 
 <th><?php _t("Linkedin"); ?></th> 
 <th><?php _t("Fecha_nacimiento"); ?></th> 
 <th><?php _t("Fecha_registro"); ?></th> 
 <th><?php _t("Foto"); ?></th> 
+<th><?php _t("Notas"); ?></th> 
 <th><?php _t("Estatus"); ?></th> 
  <th><?php _t("Accion"); ?></th> 
  </tr>

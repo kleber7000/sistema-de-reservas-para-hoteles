@@ -28,9 +28,33 @@
 
 
  <div class="form-group"> 
+     <label for="reservas_fecha_entrada" class="col-sm-2 control-label"><?php _t("Fecha_entrada"); ?></label> 
+     <div class="col-sm-10"> 
+       <input type="facha" class="form-control" name="reservas_fecha_entrada" id="reservas_fecha_entrada" placeholder="<?php _t("Fecha_entrada"); ?>" value=""   > 
+     </div> 
+   </div> 
+
+
+ <div class="form-group"> 
+     <label for="reservas_fecha_salida" class="col-sm-2 control-label"><?php _t("Fecha_salida"); ?></label> 
+     <div class="col-sm-10"> 
+       <input type="facha" class="form-control" name="reservas_fecha_salida" id="reservas_fecha_salida" placeholder="<?php _t("Fecha_salida"); ?>" value=""   > 
+     </div> 
+   </div> 
+
+
+ <div class="form-group"> 
      <label for="reservas_pax" class="col-sm-2 control-label"><?php _t("Pax"); ?></label> 
      <div class="col-sm-10"> 
        <input type="text" class="form-control" name="reservas_pax" id="reservas_pax" placeholder="<?php _t("Pax"); ?>" value=""   > 
+     </div> 
+   </div> 
+
+
+ <div class="form-group"> 
+     <label for="reservas_notas" class="col-sm-2 control-label"><?php _t("Notas"); ?></label> 
+     <div class="col-sm-10"> 
+       <textarea  class="form-control" name="reservas_notas" id="reservas_notas" placeholder="<?php _t("Notas"); ?>"></textarea> 
      </div> 
    </div> 
 

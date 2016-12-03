@@ -37,6 +37,14 @@
 
 
  <div class="form-group"> 
+     <label for="reservas_notas" class="col-sm-2 control-label"><?php _t("Notas"); ?></label> 
+     <div class="col-sm-10"> 
+       <textarea  class="form-control" name="reservas_notas" id="reservas_notas" placeholder="<?php _t("Notas"); ?>"><?php echo $reservas_notas; ?></textarea> 
+     </div> 
+   </div> 
+
+
+ <div class="form-group"> 
      <label for="reservas_estatus" class="col-sm-2 control-label"><?php _t("Estatus"); ?></label> 
      <div class="col-sm-10"> 
      <div class="radio">

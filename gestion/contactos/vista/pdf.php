@@ -10,10 +10,14 @@
  contactos_ciudad : %contactos_ciudad% 
  contactos_direccion : %contactos_direccion% 
  contactos_cpostal : %contactos_cpostal% 
+ contactos_telefono_casa : %contactos_telefono_casa% 
+ contactos_telefono_trabajo : %contactos_telefono_trabajo% 
+ contactos_telefono_mobil : %contactos_telefono_mobil% 
  contactos_email : %contactos_email% 
  contactos_facebook : %contactos_facebook% 
  contactos_linkedin : %contactos_linkedin% 
  contactos_fecha_nacimiento : %contactos_fecha_nacimiento% 
  contactos_fecha_registro : %contactos_fecha_registro% 
  contactos_foto : %contactos_foto% 
+ contactos_notas : %contactos_notas% 
  contactos_estatus : %contactos_estatus% 

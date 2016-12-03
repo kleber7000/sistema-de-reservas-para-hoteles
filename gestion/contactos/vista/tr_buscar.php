@@ -11,12 +11,16 @@
  <td><input class="form-control" type="text" name="contactos_ciudad" value="" placeholder="<?php _t("Ciudad"); ?>"></td> 
  <td><input class="form-control" type="text" name="contactos_direccion" value="" placeholder="<?php _t("Direccion"); ?>"></td> 
  <td><input class="form-control" type="text" name="contactos_cpostal" value="" placeholder="<?php _t("Cpostal"); ?>"></td> 
+ <td><input class="form-control" type="text" name="contactos_telefono_casa" value="" placeholder="<?php _t("Telefono_casa"); ?>"></td> 
+ <td><input class="form-control" type="text" name="contactos_telefono_trabajo" value="" placeholder="<?php _t("Telefono_trabajo"); ?>"></td> 
+ <td><input class="form-control" type="text" name="contactos_telefono_mobil" value="" placeholder="<?php _t("Telefono_mobil"); ?>"></td> 
  <td><input class="form-control" type="text" name="contactos_email" value="" placeholder="<?php _t("Email"); ?>"></td> 
  <td><input class="form-control" type="text" name="contactos_facebook" value="" placeholder="<?php _t("Facebook"); ?>"></td> 
  <td><input class="form-control" type="text" name="contactos_linkedin" value="" placeholder="<?php _t("Linkedin"); ?>"></td> 
  <td><input class="form-control" type="text" name="contactos_fecha_nacimiento" value="" placeholder="<?php _t("Fecha_nacimiento"); ?>"></td> 
  <td><input class="form-control" type="text" name="contactos_fecha_registro" value="" placeholder="<?php _t("Fecha_registro"); ?>"></td> 
  <td><input class="form-control" type="text" name="contactos_foto" value="" placeholder="<?php _t("Foto"); ?>"></td> 
+ <td><input class="form-control" type="text" name="contactos_notas" value="" placeholder="<?php _t("Notas"); ?>"></td> 
  <td><input class="form-control" type="text" name="contactos_estatus" value="" placeholder="<?php _t("Estatus"); ?>"></td> 
 <td><input class="btn btn-info" type="submit" value="<?php _t("Buscar"); ?>" >
         

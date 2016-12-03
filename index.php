@@ -113,10 +113,13 @@
             <div class="row featurette">
                 <div class="col-md-7">
                     <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It ll blow your mind.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <p class="lead">
+                    Ubicado en la entrada del puente nº2 de la autopista vía  a los Chillos, Entrada al centro de revisión vehicular de los Chillos,  Barrio Salvador Celi nº 14, zona atractiva para el turismo con acogedores y pintorescos cafés. Completa privacidad para el huésped, a 15 minutos del centro de Quito, a 1o minutos de valle de los Chillos, circulan 10 lineas de buses y taxis. Ideal para Familias, estudiantes y parejas jóvenes.    
+                    </p>
                 </div>
                 <div class="col-md-5">
-                    <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                    <img class="featurette-image img-responsive center-block" 
+                         src="imagenes/ubicacion-casa-Quito.jpg" alt="Generic placeholder image">
                 </div>
             </div>
 
@@ -125,7 +128,49 @@
             <div class="row featurette">
                 <div class="col-md-7 col-md-push-5">
                     <h2 class="featurette-heading">Oh yeah, it s that good. <span class="text-muted">See for yourself.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <p class="lead">
+                        
+                    <h3>Descripción</h3>
+
+    Inmueble: Casa Unifamiliar
+    Operación: Alquiler Corta Temporada
+    Ambientes: 2
+    Antigüedad: Max 10 años
+    Baños: 3
+    Dormitorios: 3
+    Tipo de edificación: Casa
+    Area de construcción (m²): 100
+    Area de terreno (m²): 100
+    Amoblado: Sí
+    Estado: Muy bueno
+    Garage: Sí
+    Capacidad de personas: 6
+    Check in: 08:00
+    Check out: 11:00
+    Número de camas: 3
+
+    <h3>Ambientes</h3>
+
+    Cocina
+    Comedor
+    Dormitorio (3)
+    Escritorio
+    Lavandería
+    Terraza
+
+    <h3>Comodidades</h3>
+
+    Apto para familias/niños
+    Lavadora/Secadora
+    Microondas
+    Garage de visitas
+    Conexión a internet Wifi
+    Parrillero/Barbacoa
+    Terraza con vistas a la montaña
+    Seguridad 24/7
+
+                    
+                    </p>
                 </div>
                 <div class="col-md-5 col-md-pull-7">
                     <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
@@ -134,43 +179,11 @@
 
             <hr class="featurette-divider">
 
-            <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">Reserva. <span class="text-muted">Ahora.</span></h2>
-                    <p class="lead">Llene elsiguiente formulario para hacer su reserva.</p>
-                    
-                    
-                    <?php 
-                    include './reserva_form.php';
-                    ?>
-                    
-                    
-                </div>
-                <div class="col-md-5">
-                    <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-                </div>
-            </div>
+
+            
 
             <hr class="featurette-divider">
 
             <!-- /END THE FEATURETTES -->
 
-
-            <!-- FOOTER -->
-            <footer>
-                <p class="pull-right"><a href="#">Back to top</a></p>
-                <p>&copy; 2015 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-            </footer>
-
-        </div><!-- /.container -->
-
-
-        <!-- Bootstrap core JavaScript
-        ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
-        <script src="includes/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-
-
-    </body>
-</html>
+<?php include "footer.php"; ?>

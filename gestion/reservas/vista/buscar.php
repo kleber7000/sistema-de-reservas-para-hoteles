@@ -12,9 +12,10 @@
         <tr> 
 <th><?php _t("Id_casa"); ?></th> 
 <th><?php _t("Id_contacto"); ?></th> 
-<th><?php _t("Fecha_inicio"); ?></th> 
-<th><?php _t("Fecha_fin"); ?></th> 
+<th><?php _t("Fecha_entrada"); ?></th> 
+<th><?php _t("Fecha_salida"); ?></th> 
 <th><?php _t("Pax"); ?></th> 
+<th><?php _t("Notas"); ?></th> 
 <th><?php _t("Estatus"); ?></th> 
  <th><?php _t("Accion"); ?></th> 
  </tr>

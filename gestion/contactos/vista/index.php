@@ -19,12 +19,16 @@
  <th><?php echo _t("Ciudad"); ?></th> 
  <th><?php echo _t("Direccion"); ?></th> 
  <th><?php echo _t("Cpostal"); ?></th> 
+ <th><?php echo _t("Telefono_casa"); ?></th> 
+ <th><?php echo _t("Telefono_trabajo"); ?></th> 
+ <th><?php echo _t("Telefono_mobil"); ?></th> 
  <th><?php echo _t("Email"); ?></th> 
  <th><?php echo _t("Facebook"); ?></th> 
  <th><?php echo _t("Linkedin"); ?></th> 
  <th><?php echo _t("Fecha_nacimiento"); ?></th> 
  <th><?php echo _t("Fecha_registro"); ?></th> 
  <th><?php echo _t("Foto"); ?></th> 
+ <th><?php echo _t("Notas"); ?></th> 
  <th><?php echo _t("Estatus"); ?></th> 
  <th><?php echo _t("Accion"); ?></th> 
  </tr>

@@ -1,4 +1,5 @@
-<form>
+<form method="post" action="confirmacion.php">
+
 
     <div class="form-group">
         <label for="nombres">Nombres y apellidos</label>
@@ -16,6 +17,31 @@
     </div>
 
 
+    
+
+    <div class="form-group">
+        <label class="sr-only" for="fecha_llegada"><?php _t("Fecha de llegada"); ?></label>
+        <div class="input-group">
+            <input type="text" class="form-control" name="fecha_llegada" id="fecha_llegada" placeholder="<?php _t("Fecha de llegada"); ?>">
+            <div class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="sr-only" for="fecha_salida"><?php _t("Fecha de salida"); ?></label>
+        <div class="input-group">
+            <input type="text" class="form-control" name="fecha_salida" id="fecha_salida" placeholder="<?php _t("Fecha de salida"); ?>">
+            <div class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></div>
+        </div>
+    </div>
+
+
+
+
+
+    
+
+
 
     <div class="form-group">
         <label for="exampleInputPassword1">Huespedes</label>
@@ -28,7 +54,7 @@
                 <option value="1">5 Huespedes (50 USD /noche)</option>
                 <option value="1">6 Huespedes (60 USD /noche)</option>
             </optgroup>
-            
+
             <optgroup label="Casa Erica">
                 <option value="1">1 Huesped (10 USD/noche)</option>
                 <option value="1">2 Huespedes (20 USD/noche)</option>
@@ -37,7 +63,7 @@
                 <option value="1">5 Huespedes (50 USD /noche)</option>
                 <option value="1">6 Huespedes (60 USD /noche)</option>
             </optgroup>
-            
+
             <optgroup label="Casa Javier">
                 <option value="1">1 Huesped (10 USD/noche)</option>
                 <option value="1">2 Huespedes (20 USD/noche)</option>
@@ -47,10 +73,10 @@
                 <option value="1">6 Huespedes (60 USD /noche)</option>
             </optgroup>
 
-            
+
         </select>
     </div>
-    
+
 
     <div class="checkbox">
         <label>
@@ -63,9 +89,9 @@
             <input type="checkbox"> Desayuno (9.99 USD por persona / desayuno)
         </label>
     </div>
-    
-    
-    
+
+
+
 
     <button type="submit" class="btn btn-default">Submit</button>
 

@@ -14,18 +14,23 @@
                     </div>
                      
                     <div class="form-group">
-                      <label for="Fecha_inicio"><?php _t("Fecha_inicio"); ?></label>
-                      <input type="text" class="form-control" name="reservas_fecha_inicio" id="reservas_fecha_inicio" placeholder="<?php _t("Fecha_inicio"); ?>">
+                      <label for="Fecha_entrada"><?php _t("Fecha_entrada"); ?></label>
+                      <input type="text" class="form-control" name="reservas_fecha_entrada" id="reservas_fecha_entrada" placeholder="<?php _t("Fecha_entrada"); ?>">
                     </div>
                      
                     <div class="form-group">
-                      <label for="Fecha_fin"><?php _t("Fecha_fin"); ?></label>
-                      <input type="text" class="form-control" name="reservas_fecha_fin" id="reservas_fecha_fin" placeholder="<?php _t("Fecha_fin"); ?>">
+                      <label for="Fecha_salida"><?php _t("Fecha_salida"); ?></label>
+                      <input type="text" class="form-control" name="reservas_fecha_salida" id="reservas_fecha_salida" placeholder="<?php _t("Fecha_salida"); ?>">
                     </div>
                      
                     <div class="form-group">
                       <label for="Pax"><?php _t("Pax"); ?></label>
                       <input type="text" class="form-control" name="reservas_pax" id="reservas_pax" placeholder="<?php _t("Pax"); ?>">
+                    </div>
+                     
+                    <div class="form-group">
+                      <label for="Notas"><?php _t("Notas"); ?></label>
+                      <input type="text" class="form-control" name="reservas_notas" id="reservas_notas" placeholder="<?php _t("Notas"); ?>">
                     </div>
                      
                     <div class="form-group">

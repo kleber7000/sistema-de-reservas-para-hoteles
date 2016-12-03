@@ -54,6 +54,21 @@
                     </div>
                      
                     <div class="form-group">
+                      <label for="Telefono_casa"><?php _t("Telefono_casa"); ?></label>
+                      <input type="text" class="form-control" name="contactos_telefono_casa" id="contactos_telefono_casa" placeholder="<?php _t("Telefono_casa"); ?>">
+                    </div>
+                     
+                    <div class="form-group">
+                      <label for="Telefono_trabajo"><?php _t("Telefono_trabajo"); ?></label>
+                      <input type="text" class="form-control" name="contactos_telefono_trabajo" id="contactos_telefono_trabajo" placeholder="<?php _t("Telefono_trabajo"); ?>">
+                    </div>
+                     
+                    <div class="form-group">
+                      <label for="Telefono_mobil"><?php _t("Telefono_mobil"); ?></label>
+                      <input type="text" class="form-control" name="contactos_telefono_mobil" id="contactos_telefono_mobil" placeholder="<?php _t("Telefono_mobil"); ?>">
+                    </div>
+                     
+                    <div class="form-group">
                       <label for="Email"><?php _t("Email"); ?></label>
                       <input type="text" class="form-control" name="contactos_email" id="contactos_email" placeholder="<?php _t("Email"); ?>">
                     </div>
@@ -81,6 +96,11 @@
                     <div class="form-group">
                       <label for="Foto"><?php _t("Foto"); ?></label>
                       <input type="text" class="form-control" name="contactos_foto" id="contactos_foto" placeholder="<?php _t("Foto"); ?>">
+                    </div>
+                     
+                    <div class="form-group">
+                      <label for="Notas"><?php _t("Notas"); ?></label>
+                      <input type="text" class="form-control" name="contactos_notas" id="contactos_notas" placeholder="<?php _t("Notas"); ?>">
                     </div>
                      
                     <div class="form-group">

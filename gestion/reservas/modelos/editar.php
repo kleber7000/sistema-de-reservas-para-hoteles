@@ -2,8 +2,9 @@
  $sql=mysql_query(" UPDATE reservas SET  
  id_casa = '$reservas_id_casa'  
  ,  id_contacto = '$reservas_id_contacto'  
- ,  fecha_inicio = '$reservas_fecha_inicio'  
- ,  fecha_fin = '$reservas_fecha_fin'  
+ ,  fecha_entrada = '$reservas_fecha_entrada'  
+ ,  fecha_salida = '$reservas_fecha_salida'  
  ,  pax = '$reservas_pax'  
+ ,  notas = '$reservas_notas'  
  ,  estatus = '$reservas_estatus'  
  WHERE id = '$reservas_id' ",$conexion) or die ("Error: ".mysql_error());   

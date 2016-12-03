@@ -103,6 +103,30 @@
 
 
  <div class="form-group"> 
+     <label for="contactos_telefono_casa" class="col-sm-2 control-label"><?php _t("Telefono_casa"); ?></label> 
+     <div class="col-sm-10"> 
+       <input type="text" class="form-control" name="contactos_telefono_casa" id="contactos_telefono_casa" placeholder="<?php _t("Telefono_casa"); ?>" value=""   > 
+     </div> 
+   </div> 
+
+
+ <div class="form-group"> 
+     <label for="contactos_telefono_trabajo" class="col-sm-2 control-label"><?php _t("Telefono_trabajo"); ?></label> 
+     <div class="col-sm-10"> 
+       <input type="text" class="form-control" name="contactos_telefono_trabajo" id="contactos_telefono_trabajo" placeholder="<?php _t("Telefono_trabajo"); ?>" value=""   > 
+     </div> 
+   </div> 
+
+
+ <div class="form-group"> 
+     <label for="contactos_telefono_mobil" class="col-sm-2 control-label"><?php _t("Telefono_mobil"); ?></label> 
+     <div class="col-sm-10"> 
+       <input type="text" class="form-control" name="contactos_telefono_mobil" id="contactos_telefono_mobil" placeholder="<?php _t("Telefono_mobil"); ?>" value=""   > 
+     </div> 
+   </div> 
+
+
+ <div class="form-group"> 
      <label for="contactos_email" class="col-sm-2 control-label"><?php _t("Email"); ?></label> 
      <div class="col-sm-10"> 
        <input type="text" class="form-control" name="contactos_email" id="contactos_email" placeholder="<?php _t("Email"); ?>" value=""   > 
@@ -127,6 +151,14 @@
 
 
  <div class="form-group"> 
+     <label for="contactos_fecha_nacimiento" class="col-sm-2 control-label"><?php _t("Fecha_nacimiento"); ?></label> 
+     <div class="col-sm-10"> 
+       <input type="facha" class="form-control" name="contactos_fecha_nacimiento" id="contactos_fecha_nacimiento" placeholder="<?php _t("Fecha_nacimiento"); ?>" value=""   > 
+     </div> 
+   </div> 
+
+
+ <div class="form-group"> 
      <label for="contactos_foto" class="col-sm-2 control-label"><?php _t("Foto"); ?></label> 
      <div class="col-sm-10"> 
        <input type="text" class="form-control" name="contactos_foto" id="contactos_foto" placeholder="<?php _t("Foto"); ?>" value=""   > 
@@ -135,10 +167,29 @@
 
 
  <div class="form-group"> 
+     <label for="contactos_notas" class="col-sm-2 control-label"><?php _t("Notas"); ?></label> 
+     <div class="col-sm-10"> 
+       <textarea  class="form-control" name="contactos_notas" id="contactos_notas" placeholder="<?php _t("Notas"); ?>"></textarea> 
+     </div> 
+   </div> 
+
+
+ <div class="form-group"> 
      <label for="contactos_estatus" class="col-sm-2 control-label"><?php _t("Estatus"); ?></label> 
      <div class="col-sm-10"> 
-       <input type="text" class="form-control" name="contactos_estatus" id="contactos_estatus" placeholder="<?php _t("Estatus"); ?>" value=""   > 
-     </div> 
+     <div class="radio">
+        <label>
+            <input  type="radio" name="contactos_estatus" value="1" <?php echo "$contactos_estatus_1"; ?>  >
+            <?php _t("Activo"); ?> 
+        </label>
+     </div>
+     <div class="radio">
+        <label>
+            <input  type="radio" name="contactos_estatus" value="0"  <?php echo "$contactos_estatus_0"; ?>  >
+            <?php _t("Bloqueado"); ?>  
+        </label>
+     </div>
+   </div> 
    </div> 
 
 

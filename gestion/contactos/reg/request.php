@@ -10,10 +10,14 @@
   $contactos_ciudad = mysql_real_escape_string($_REQUEST['contactos_ciudad']); 
   $contactos_direccion = mysql_real_escape_string($_REQUEST['contactos_direccion']); 
   $contactos_cpostal = mysql_real_escape_string($_REQUEST['contactos_cpostal']); 
+  $contactos_telefono_casa = mysql_real_escape_string($_REQUEST['contactos_telefono_casa']); 
+  $contactos_telefono_trabajo = mysql_real_escape_string($_REQUEST['contactos_telefono_trabajo']); 
+  $contactos_telefono_mobil = mysql_real_escape_string($_REQUEST['contactos_telefono_mobil']); 
   $contactos_email = mysql_real_escape_string($_REQUEST['contactos_email']); 
   $contactos_facebook = mysql_real_escape_string($_REQUEST['contactos_facebook']); 
   $contactos_linkedin = mysql_real_escape_string($_REQUEST['contactos_linkedin']); 
   $contactos_fecha_nacimiento = mysql_real_escape_string($_REQUEST['contactos_fecha_nacimiento']); 
   $contactos_fecha_registro = mysql_real_escape_string($_REQUEST['contactos_fecha_registro']); 
   $contactos_foto = mysql_real_escape_string($_REQUEST['contactos_foto']); 
+  $contactos_notas = mysql_real_escape_string($_REQUEST['contactos_notas']); 
   $contactos_estatus = mysql_real_escape_string($_REQUEST['contactos_estatus']); 

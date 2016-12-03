@@ -15,12 +15,16 @@ $borrar = (permisos_tiene_permiso("borrar", "contactos", $_usuarios_grupo))?'<a 
  <td><input class="form-control" type="text" name="contactos_ciudad" value="<?php echo $contactos_ciudad; ?>" placeholder="<?php _t("Ciudad"); ?>"></td> 
  <td><input class="form-control" type="text" name="contactos_direccion" value="<?php echo $contactos_direccion; ?>" placeholder="<?php _t("Direccion"); ?>"></td> 
  <td><input class="form-control" type="text" name="contactos_cpostal" value="<?php echo $contactos_cpostal; ?>" placeholder="<?php _t("Cpostal"); ?>"></td> 
+ <td><input class="form-control" type="text" name="contactos_telefono_casa" value="<?php echo $contactos_telefono_casa; ?>" placeholder="<?php _t("Telefono_casa"); ?>"></td> 
+ <td><input class="form-control" type="text" name="contactos_telefono_trabajo" value="<?php echo $contactos_telefono_trabajo; ?>" placeholder="<?php _t("Telefono_trabajo"); ?>"></td> 
+ <td><input class="form-control" type="text" name="contactos_telefono_mobil" value="<?php echo $contactos_telefono_mobil; ?>" placeholder="<?php _t("Telefono_mobil"); ?>"></td> 
  <td><input class="form-control" type="text" name="contactos_email" value="<?php echo $contactos_email; ?>" placeholder="<?php _t("Email"); ?>"></td> 
  <td><input class="form-control" type="text" name="contactos_facebook" value="<?php echo $contactos_facebook; ?>" placeholder="<?php _t("Facebook"); ?>"></td> 
  <td><input class="form-control" type="text" name="contactos_linkedin" value="<?php echo $contactos_linkedin; ?>" placeholder="<?php _t("Linkedin"); ?>"></td> 
  <td><input class="form-control" type="text" name="contactos_fecha_nacimiento" value="<?php echo $contactos_fecha_nacimiento; ?>" placeholder="<?php _t("Fecha_nacimiento"); ?>"></td> 
  <td><input class="form-control" type="text" name="contactos_fecha_registro" value="<?php echo $contactos_fecha_registro; ?>" placeholder="<?php _t("Fecha_registro"); ?>"></td> 
  <td><input class="form-control" type="text" name="contactos_foto" value="<?php echo $contactos_foto; ?>" placeholder="<?php _t("Foto"); ?>"></td> 
+ <td><input class="form-control" type="text" name="contactos_notas" value="<?php echo $contactos_notas; ?>" placeholder="<?php _t("Notas"); ?>"></td> 
  <td><input class="form-control" type="text" name="contactos_estatus" value="<?php echo $contactos_estatus; ?>" placeholder="<?php _t("Estatus"); ?>"></td> 
 <td><input class="btn btn-primary" type="submit" value="<?php _t("Registrar"); ?>" >
         <?php echo $borrar; ?>

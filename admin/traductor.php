@@ -5,7 +5,7 @@ function _traducir($f, $ccontexto="", $idioma="") {
 }
 
 function _t($frase, $contexto="", $idioma="") {
-global $config_idioma_por_defecto; 
+/*global $config_idioma_por_defecto; 
    $idioma = (!$idioma)? $config_idioma_por_defecto : $idioma ;
    
    if(!$contexto){
@@ -34,7 +34,8 @@ if(!$frase_traducida){
     $frase_traducida = traduccion_segun_id_contenido_idioma($id_contenido, $idioma);
 }
     
-    echo $frase_traducida;
+    echo $frase_traducida;*/
+    echo $frase;
 }
 
 

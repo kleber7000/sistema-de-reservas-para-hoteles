@@ -11,12 +11,16 @@
  "ciudad"=>"$contactos_ciudad",  
  "direccion"=>"$contactos_direccion",  
  "cpostal"=>"$contactos_cpostal",  
+ "telefono_casa"=>"$contactos_telefono_casa",  
+ "telefono_trabajo"=>"$contactos_telefono_trabajo",  
+ "telefono_mobil"=>"$contactos_telefono_mobil",  
  "email"=>"$contactos_email",  
  "facebook"=>"$contactos_facebook",  
  "linkedin"=>"$contactos_linkedin",  
  "fecha_nacimiento"=>"$contactos_fecha_nacimiento",  
  "fecha_registro"=>"$contactos_fecha_registro",  
  "foto"=>"$contactos_foto",  
+ "notas"=>"$contactos_notas",  
  "estatus"=>"$contactos_estatus",  
                 ]
         ];  $html = str_replace('%contactos_id%',       $datos['contactos']['id'], $html); 
@@ -30,10 +34,14 @@
   $html = str_replace('%contactos_ciudad%',       $datos['contactos']['ciudad'], $html); 
   $html = str_replace('%contactos_direccion%',       $datos['contactos']['direccion'], $html); 
   $html = str_replace('%contactos_cpostal%',       $datos['contactos']['cpostal'], $html); 
+  $html = str_replace('%contactos_telefono_casa%',       $datos['contactos']['telefono_casa'], $html); 
+  $html = str_replace('%contactos_telefono_trabajo%',       $datos['contactos']['telefono_trabajo'], $html); 
+  $html = str_replace('%contactos_telefono_mobil%',       $datos['contactos']['telefono_mobil'], $html); 
   $html = str_replace('%contactos_email%',       $datos['contactos']['email'], $html); 
   $html = str_replace('%contactos_facebook%',       $datos['contactos']['facebook'], $html); 
   $html = str_replace('%contactos_linkedin%',       $datos['contactos']['linkedin'], $html); 
   $html = str_replace('%contactos_fecha_nacimiento%',       $datos['contactos']['fecha_nacimiento'], $html); 
   $html = str_replace('%contactos_fecha_registro%',       $datos['contactos']['fecha_registro'], $html); 
   $html = str_replace('%contactos_foto%',       $datos['contactos']['foto'], $html); 
+  $html = str_replace('%contactos_notas%',       $datos['contactos']['notas'], $html); 
   $html = str_replace('%contactos_estatus%',       $datos['contactos']['estatus'], $html); 
