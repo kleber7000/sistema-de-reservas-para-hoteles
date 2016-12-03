@@ -187,7 +187,8 @@ include "./admin/traductor.php";
         
         
         
-<!-- Large modal -->
+<?php 
+/*<!-- Large modal -->
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
 
 <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -198,7 +199,8 @@ include "./admin/traductor.php";
       ?>
     </div>
   </div>
-</div>
+</div>*/
+?>
 
 
 

@@ -32,7 +32,7 @@ while ($casas = mysql_fetch_array($sql)) {
    echo "<option "; 
    if($selecionado==$casas[0]) {echo " selected "; } else {echo ""; }
    if($excluir==$casas[0]) {echo " disabled "; } else {echo ""; }
-   echo "value=\"$casas[0]\">$casas[0]</option>";
+   echo "value=\"$casas[0]\">$casas[casa]</option>";
 } 
 }
 

@@ -5,5 +5,6 @@
   $reservas_fecha_entrada = mysql_real_escape_string($_GET['reservas_fecha_entrada']); 
   $reservas_fecha_salida = mysql_real_escape_string($_GET['reservas_fecha_salida']); 
   $reservas_pax = mysql_real_escape_string($_GET['reservas_pax']); 
+  $reservas_precio_noche_persona = mysql_real_escape_string($_GET['reservas_precio_noche_persona']); 
   $reservas_notas = mysql_real_escape_string($_GET['reservas_notas']); 
   $reservas_estatus = mysql_real_escape_string($_GET['reservas_estatus']); 

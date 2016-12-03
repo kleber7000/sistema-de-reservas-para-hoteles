@@ -14,6 +14,7 @@
  <th><?php echo _t("Fecha_entrada"); ?></th> 
  <th><?php echo _t("Fecha_salida"); ?></th> 
  <th><?php echo _t("Pax"); ?></th> 
+ <th><?php echo _t("Precio_noche_persona"); ?></th> 
  <th><?php echo _t("Notas"); ?></th> 
  <th><?php echo _t("Estatus"); ?></th> 
  <th><?php echo _t("Accion"); ?></th> 

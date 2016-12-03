@@ -10,6 +10,7 @@ $borrar = (permisos_tiene_permiso("borrar", "reservas", $_usuarios_grupo))?'<a c
  <td><input class="form-control" type="text" name="reservas_fecha_entrada" value="<?php echo $reservas_fecha_entrada; ?>" placeholder="<?php _t("Fecha_entrada"); ?>"></td> 
  <td><input class="form-control" type="text" name="reservas_fecha_salida" value="<?php echo $reservas_fecha_salida; ?>" placeholder="<?php _t("Fecha_salida"); ?>"></td> 
  <td><input class="form-control" type="text" name="reservas_pax" value="<?php echo $reservas_pax; ?>" placeholder="<?php _t("Pax"); ?>"></td> 
+ <td><input class="form-control" type="text" name="reservas_precio_noche_persona" value="<?php echo $reservas_precio_noche_persona; ?>" placeholder="<?php _t("Precio_noche_persona"); ?>"></td> 
  <td><input class="form-control" type="text" name="reservas_notas" value="<?php echo $reservas_notas; ?>" placeholder="<?php _t("Notas"); ?>"></td> 
  <td><input class="form-control" type="text" name="reservas_estatus" value="<?php echo $reservas_estatus; ?>" placeholder="<?php _t("Estatus"); ?>"></td> 
 <td><input class="btn btn-primary" type="submit" value="<?php _t("Registrar"); ?>" >

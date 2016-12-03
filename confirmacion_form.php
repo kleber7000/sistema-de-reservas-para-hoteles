@@ -1,5 +1,23 @@
 <form method="post" action="confirmacion.php">
-  
+
+
+    <div class="form-group">
+        <label for="nombres">Nombres y apellidos</label>
+        <input type="text" class="form-control" id="nombres" placeholder="Nombres y apelidos">
+    </div>
+
+    <div class="form-group">
+        <label for="tel">Telefono</label>
+        <input type="email" class="form-control" id="tel" placeholder="">
+    </div>
+
+    <div class="form-group">
+        <label for="exampleInputPassword1">Email</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+    </div>
+
+
+    
 
     <div class="form-group">
         <label class="sr-only" for="fecha_llegada"><?php _t("Fecha de llegada"); ?></label>
@@ -20,13 +38,13 @@
 
 
 
+
     
 
 
 
     <div class="form-group">
         <label for="exampleInputPassword1">Huespedes</label>
-        <div class="input-group">
         <select class="form-control" name="pax">
             <optgroup label="Casa Sayani">
                 <option value="1">1 Huesped (10 USD/noche)</option>
@@ -57,8 +75,6 @@
 
 
         </select>
-            <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
-    </div>
     </div>
 
 
@@ -77,7 +93,7 @@
 
 
 
-    <button type="submit" class="btn btn-danger">Submit</button>
+    <button type="submit" class="btn btn-default">Submit</button>
 
 
 </form>

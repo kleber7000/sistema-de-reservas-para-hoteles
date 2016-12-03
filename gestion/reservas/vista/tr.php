@@ -6,6 +6,7 @@
  <td>'.$reservas_fecha_entrada.'</td> 
  <td>'.$reservas_fecha_salida.'</td> 
  <td>'.$reservas_pax.'</td> 
+ <td>'.$reservas_precio_noche_persona.'</td> 
  <td>'.$reservas_notas.'</td> 
  <td>'.$reservas_estatus.'</td> 
  <td>

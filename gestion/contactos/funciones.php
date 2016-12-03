@@ -32,7 +32,7 @@ while ($contactos = mysql_fetch_array($sql)) {
    echo "<option "; 
    if($selecionado==$contactos[0]) {echo " selected "; } else {echo ""; }
    if($excluir==$contactos[0]) {echo " disabled "; } else {echo ""; }
-   echo "value=\"$contactos[0]\">$contactos[0]</option>";
+   echo "value=\"$contactos[0]\">$contactos[apellidos], $contactos[nombres]</option>";
 } 
 }
 

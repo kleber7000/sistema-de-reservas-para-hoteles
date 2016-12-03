@@ -29,6 +29,11 @@
                     </div>
                      
                     <div class="form-group">
+                      <label for="Precio_noche_persona"><?php _t("Precio_noche_persona"); ?></label>
+                      <input type="text" class="form-control" name="reservas_precio_noche_persona" id="reservas_precio_noche_persona" placeholder="<?php _t("Precio_noche_persona"); ?>">
+                    </div>
+                     
+                    <div class="form-group">
                       <label for="Notas"><?php _t("Notas"); ?></label>
                       <input type="text" class="form-control" name="reservas_notas" id="reservas_notas" placeholder="<?php _t("Notas"); ?>">
                     </div>

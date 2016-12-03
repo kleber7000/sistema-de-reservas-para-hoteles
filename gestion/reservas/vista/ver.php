@@ -28,6 +28,14 @@
 
 
  <div class="form-group"> 
+     <label for="reservas_precio_noche_persona" class="col-sm-2 control-label"><?php _t("Precio_noche_persona"); ?></label> 
+     <div class="col-sm-10"> 
+       <input type="text" class="form-control" name="reservas_precio_noche_persona" id="reservas_precio_noche_persona" placeholder="<?php _t("Precio_noche_persona"); ?>" value="<?php echo $reservas_precio_noche_persona; ?>"  disabled > 
+     </div> 
+   </div> 
+
+
+ <div class="form-group"> 
      <label for="reservas_notas" class="col-sm-2 control-label"><?php _t("Notas"); ?></label> 
      <div class="col-sm-10"> 
        <textarea disabled class="form-control" name="reservas_notas" id="reservas_notas" placeholder="<?php _t("Notas"); ?>"><?php echo $reservas_notas; ?></textarea> 

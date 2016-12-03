@@ -8,6 +8,7 @@
  AND  fecha_entrada like '%$reservas_fecha_entrada%'    
  AND  fecha_salida like '%$reservas_fecha_salida%'    
  AND  pax like '%$reservas_pax%'    
+ AND  precio_noche_persona like '%$reservas_precio_noche_persona%'    
  AND  notas like '%$reservas_notas%'    
  AND  estatus like '%$reservas_estatus%'    
  ORDER BY id DESC    
