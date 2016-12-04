@@ -23,7 +23,7 @@ contactos_notas : %contactos_notas%
 contactos_estatus : %contactos_estatus%
 ";
 
-include "./contactos/reg/var.php";
+                include "./contactos/reg/var.php";
 
-echo "<h1>Variables disponibles</h1><pre>$html</pre>";
-?>
+                echo "<h1>Variables disponibles</h1><pre>$html</pre>";
+                ?>

@@ -6,7 +6,9 @@
  <div class="form-group"> 
      <label for="reservas_id_casa" class="col-sm-2 control-label"><?php _t("Id_casa"); ?></label> 
      <div class="col-sm-10"> 
-       <input type="text" class="form-control" name="reservas_id_casa" id="reservas_id_casa" placeholder="<?php _t("Id_casa"); ?>" value=""   > 
+        <select class="form-control" name="reservas_id_casa" disabled>
+        <?php casas_add($reservas_id_casa); ?>
+        </select>
      </div> 
    </div> 
 
@@ -14,7 +16,41 @@
  <div class="form-group"> 
      <label for="reservas_id_contacto" class="col-sm-2 control-label"><?php _t("Id_contacto"); ?></label> 
      <div class="col-sm-10"> 
-       <input type="text" class="form-control" name="reservas_id_contacto" id="reservas_id_contacto" placeholder="<?php _t("Id_contacto"); ?>" value=""   > 
+        <select class="form-control" name="reservas_id_contacto" disabled>
+        <?php contactos_add($reservas_id_contacto); ?>
+        </select>
+     </div> 
+   </div> 
+
+
+   <script>
+            $( function() {
+              $( "#reservas_fecha_entrada" ).datepicker();
+            } );
+            </script>
+ <div class="form-group"> 
+     <label for="reservas_fecha_entrada" class="col-sm-2 control-label"><?php _t("Fecha_entrada"); ?></label> 
+     <div class="col-sm-3"> 
+     <div class="input-group"> 
+       <input type="text" class="form-control" name="reservas_fecha_entrada" id="reservas_fecha_entrada" placeholder="<?php _t("mm/dd/aaaa"); ?>" value="<?php echo $reservas_fecha_entrada; ?>"  disabled > 
+     <div class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></div> 
+     </div> 
+     </div> 
+   </div> 
+
+
+   <script>
+            $( function() {
+              $( "#reservas_fecha_salida" ).datepicker();
+            } );
+            </script>
+ <div class="form-group"> 
+     <label for="reservas_fecha_salida" class="col-sm-2 control-label"><?php _t("Fecha_salida"); ?></label> 
+     <div class="col-sm-3"> 
+     <div class="input-group"> 
+       <input type="text" class="form-control" name="reservas_fecha_salida" id="reservas_fecha_salida" placeholder="<?php _t("mm/dd/aaaa"); ?>" value="<?php echo $reservas_fecha_salida; ?>"  disabled > 
+     <div class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></div> 
+     </div> 
      </div> 
    </div> 
 
@@ -22,7 +58,7 @@
  <div class="form-group"> 
      <label for="reservas_pax" class="col-sm-2 control-label"><?php _t("Pax"); ?></label> 
      <div class="col-sm-10"> 
-       <input type="text" class="form-control" name="reservas_pax" id="reservas_pax" placeholder="<?php _t("Pax"); ?>" value=""   > 
+       <input type="text" class="form-control" name="reservas_pax" id="reservas_pax" placeholder="<?php _t("Pax"); ?>" value="<?php echo $reservas_pax; ?>"  disabled > 
      </div> 
    </div> 
 

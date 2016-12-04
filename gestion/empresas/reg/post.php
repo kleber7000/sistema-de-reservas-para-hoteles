@@ -1,5 +1,5 @@
  <?php 
-  $empresas_id = mysql_real_escape_string($_POST['empresas_id']); 
+  //$empresas_id = mysql_real_escape_string($_POST['empresas_id']); 
   $empresas_id_propietario = mysql_real_escape_string($_POST['empresas_id_propietario']); 
   $empresas_sitio_web = mysql_real_escape_string($_POST['empresas_sitio_web']); 
   $empresas_nombre = mysql_real_escape_string($_POST['empresas_nombre']); 

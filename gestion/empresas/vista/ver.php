@@ -6,7 +6,9 @@
  <div class="form-group"> 
      <label for="empresas_id_propietario" class="col-sm-2 control-label"><?php _t("Id_propietario"); ?></label> 
      <div class="col-sm-10"> 
-       <input type="text" class="form-control" name="empresas_id_propietario" id="empresas_id_propietario" placeholder="<?php _t("Id_propietario"); ?>" value=""   > 
+        <select class="form-control" name="empresas_id_propietario" disabled>
+        <?php //empresas_add($empresas_id_propietario); ?>
+        </select>
      </div> 
    </div> 
 
@@ -38,7 +40,7 @@
  <div class="form-group"> 
      <label for="empresas_sector_actividad" class="col-sm-2 control-label"><?php _t("Sector_actividad"); ?></label> 
      <div class="col-sm-10"> 
-       <input type="text" class="form-control" name="empresas_sector_actividad" id="empresas_sector_actividad" placeholder="<?php _t("Sector_actividad"); ?>" value=""   > 
+       <input type="text" class="form-control" name="empresas_sector_actividad" id="empresas_sector_actividad" placeholder="<?php _t("Sector_actividad"); ?>" value="<?php echo $empresas_sector_actividad; ?>"  disabled > 
      </div> 
    </div> 
 
@@ -158,7 +160,7 @@
  <div class="form-group"> 
      <label for="empresas_estatus" class="col-sm-2 control-label"><?php _t("Estatus"); ?></label> 
      <div class="col-sm-10"> 
-       <input type="text" class="form-control" name="empresas_estatus" id="empresas_estatus" placeholder="<?php _t("Estatus"); ?>" value=""   > 
+       <input type="text" class="form-control" name="empresas_estatus" id="empresas_estatus" placeholder="<?php _t("Estatus"); ?>" value="<?php echo $empresas_estatus; ?>"  disabled > 
      </div> 
    </div> 
 

@@ -1,5 +1,5 @@
  <?php 
-  $reservas_id = mysql_real_escape_string($_GET['reservas_id']); 
+  //$reservas_id = mysql_real_escape_string($_GET['reservas_id']); 
   $reservas_id_casa = mysql_real_escape_string($_GET['reservas_id_casa']); 
   $reservas_id_contacto = mysql_real_escape_string($_GET['reservas_id_contacto']); 
   $reservas_fecha_entrada = mysql_real_escape_string($_GET['reservas_fecha_entrada']); 

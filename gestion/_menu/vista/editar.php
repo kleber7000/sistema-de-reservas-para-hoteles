@@ -55,7 +55,7 @@
  <div class="form-group"> 
      <label for="_menu_orden" class="col-sm-2 control-label"><?php _t("Orden"); ?></label> 
      <div class="col-sm-10"> 
-       <input type="text" class="form-control" name="_menu_orden" id="_menu_orden" placeholder="<?php _t("Orden"); ?>" value=""   > 
+       <input type="text" class="form-control" name="_menu_orden" id="_menu_orden" placeholder="<?php _t("Orden"); ?>" value="<?php echo $_menu_orden; ?>"   > 
      </div> 
    </div> 
 

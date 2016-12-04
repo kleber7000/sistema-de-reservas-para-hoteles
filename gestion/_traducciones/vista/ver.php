@@ -6,7 +6,7 @@
  <div class="form-group"> 
      <label for="_traducciones_contenido_id" class="col-sm-2 control-label"><?php _t("Contenido_id"); ?></label> 
      <div class="col-sm-10"> 
-       <input type="text" class="form-control" name="_traducciones_contenido_id" id="_traducciones_contenido_id" placeholder="<?php _t("Contenido_id"); ?>" value=""   > 
+       <input type="text" class="form-control" name="_traducciones_contenido_id" id="_traducciones_contenido_id" placeholder="<?php _t("Contenido_id"); ?>" value="<?php echo $_traducciones_contenido_id; ?>"  disabled > 
      </div> 
    </div> 
 

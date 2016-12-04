@@ -7,7 +7,7 @@ _usuarios_clave : %_usuarios_clave%
 _usuarios_estatus : %_usuarios_estatus%
 ";
 
-include "./_usuarios/reg/var.php";
+                include "./_usuarios/reg/var.php";
 
-echo "<h1>Variables disponibles</h1><pre>$html</pre>";
-?>
+                echo "<h1>Variables disponibles</h1><pre>$html</pre>";
+                ?>

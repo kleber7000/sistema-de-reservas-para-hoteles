@@ -22,7 +22,7 @@ empresas_empresa_contacto_email : %empresas_empresa_contacto_email%
 empresas_estatus : %empresas_estatus%
 ";
 
-include "./empresas/reg/var.php";
+                include "./empresas/reg/var.php";
 
-echo "<h1>Variables disponibles</h1><pre>$html</pre>";
-?>
+                echo "<h1>Variables disponibles</h1><pre>$html</pre>";
+                ?>

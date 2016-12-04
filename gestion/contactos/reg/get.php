@@ -1,5 +1,5 @@
  <?php 
-  $contactos_id = mysql_real_escape_string($_GET['contactos_id']); 
+  //$contactos_id = mysql_real_escape_string($_GET['contactos_id']); 
   $contactos_id_manager = mysql_real_escape_string($_GET['contactos_id_manager']); 
   $contactos_sexo = mysql_real_escape_string($_GET['contactos_sexo']); 
   $contactos_nombres = mysql_real_escape_string($_GET['contactos_nombres']); 

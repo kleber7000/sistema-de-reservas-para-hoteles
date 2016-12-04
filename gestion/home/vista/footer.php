@@ -8,7 +8,11 @@
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../includes/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+    
 
+    <script src="../includes/js/jquery/query-3.1.1.min.js" type="text/javascript"></script>
+    
+    
 <?php 
 /*
     <!-- Bootstrap core JavaScript

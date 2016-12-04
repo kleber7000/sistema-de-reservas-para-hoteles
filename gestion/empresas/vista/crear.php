@@ -14,7 +14,9 @@
  <div class="form-group"> 
      <label for="empresas_id_propietario" class="col-sm-2 control-label"><?php _t("Id_propietario"); ?></label> 
      <div class="col-sm-10"> 
-       <input type="text" class="form-control" name="empresas_id_propietario" id="empresas_id_propietario" placeholder="<?php _t("Id_propietario"); ?>" value=""   > 
+        <select class="form-control" name="empresas_id_propietario" >
+        <?php //empresas_add($empresas_id_propietario); ?>
+        </select>
      </div> 
    </div> 
 

@@ -31,7 +31,7 @@
  <div class="form-group"> 
      <label for="_permisos_permiso" class="col-sm-2 control-label"><?php _t("Permiso"); ?></label> 
      <div class="col-sm-10"> 
-       <input type="text" class="form-control" name="_permisos_permiso" id="_permisos_permiso" placeholder="<?php _t("Permiso"); ?>" value=""   > 
+       <input type="text" class="form-control" name="_permisos_permiso" id="_permisos_permiso" placeholder="<?php _t("Permiso"); ?>" value="<?php echo $_permisos_permiso; ?>"   > 
      </div> 
    </div> 
 

@@ -10,7 +10,7 @@ reservas_notas : %reservas_notas%
 reservas_estatus : %reservas_estatus%
 ";
 
-include "./reservas/reg/var.php";
+                include "./reservas/reg/var.php";
 
-echo "<h1>Variables disponibles</h1><pre>$html</pre>";
-?>
+                echo "<h1>Variables disponibles</h1><pre>$html</pre>";
+                ?>

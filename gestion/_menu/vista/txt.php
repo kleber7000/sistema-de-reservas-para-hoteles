@@ -8,7 +8,7 @@ _menu_icono : %_menu_icono%
 _menu_orden : %_menu_orden%
 ";
 
-include "./_menu/reg/var.php";
+                include "./_menu/reg/var.php";
 
-echo "<h1>Variables disponibles</h1><pre>$html</pre>";
-?>
+                echo "<h1>Variables disponibles</h1><pre>$html</pre>";
+                ?>

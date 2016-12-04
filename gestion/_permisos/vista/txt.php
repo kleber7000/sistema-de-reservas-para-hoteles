@@ -5,7 +5,7 @@ _permisos_pagina : %_permisos_pagina%
 _permisos_permiso : %_permisos_permiso%
 ";
 
-include "./_permisos/reg/var.php";
+                include "./_permisos/reg/var.php";
 
-echo "<h1>Variables disponibles</h1><pre>$html</pre>";
-?>
+                echo "<h1>Variables disponibles</h1><pre>$html</pre>";
+                ?>

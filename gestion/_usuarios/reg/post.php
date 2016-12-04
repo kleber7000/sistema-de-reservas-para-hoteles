@@ -1,5 +1,5 @@
  <?php 
-  $_usuarios_id = mysql_real_escape_string($_POST['_usuarios_id']); 
+  //$_usuarios_id = mysql_real_escape_string($_POST['_usuarios_id']); 
   $_usuarios_grupo = mysql_real_escape_string($_POST['_usuarios_grupo']); 
   $_usuarios_nombres = mysql_real_escape_string($_POST['_usuarios_nombres']); 
   $_usuarios_usuario = mysql_real_escape_string($_POST['_usuarios_usuario']); 

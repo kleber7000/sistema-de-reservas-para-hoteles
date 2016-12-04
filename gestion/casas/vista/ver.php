@@ -6,7 +6,9 @@
  <div class="form-group"> 
      <label for="casas_id_empresa" class="col-sm-2 control-label"><?php _t("Id_empresa"); ?></label> 
      <div class="col-sm-10"> 
-       <input type="text" class="form-control" name="casas_id_empresa" id="casas_id_empresa" placeholder="<?php _t("Id_empresa"); ?>" value=""   > 
+        <select class="form-control" name="casas_id_empresa" disabled>
+        <?php empresas_add($casas_id_empresa); ?>
+        </select>
      </div> 
    </div> 
 
@@ -22,7 +24,7 @@
  <div class="form-group"> 
      <label for="casas_capacidad" class="col-sm-2 control-label"><?php _t("Capacidad"); ?></label> 
      <div class="col-sm-10"> 
-       <input type="text" class="form-control" name="casas_capacidad" id="casas_capacidad" placeholder="<?php _t("Capacidad"); ?>" value=""   > 
+       <input type="text" class="form-control" name="casas_capacidad" id="casas_capacidad" placeholder="<?php _t("Capacidad"); ?>" value="<?php echo $casas_capacidad; ?>"  disabled > 
      </div> 
    </div> 
 

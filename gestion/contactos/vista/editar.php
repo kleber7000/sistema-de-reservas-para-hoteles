@@ -15,7 +15,9 @@
  <div class="form-group"> 
      <label for="contactos_id_manager" class="col-sm-2 control-label"><?php _t("Id_manager"); ?></label> 
      <div class="col-sm-10"> 
-       <input type="text" class="form-control" name="contactos_id_manager" id="contactos_id_manager" placeholder="<?php _t("Id_manager"); ?>" value=""   > 
+        <select class="form-control" name="contactos_id_manager" <?php echo $contactos_id_manager; ?>>
+        <?php casas_add($contactos_id_manager); ?>
+        </select>
      </div> 
    </div> 
 
@@ -26,13 +28,13 @@
      <div class="radio">
         <label>
             <input  type="radio" name="contactos_sexo" value="1" <?php echo "$contactos_sexo_1"; ?>  >
-            <?php _t("Activo"); ?> 
+            <?php _t("Hombre"); ?> 
         </label>
      </div>
      <div class="radio">
         <label>
             <input  type="radio" name="contactos_sexo" value="0"  <?php echo "$contactos_sexo_0"; ?>  >
-            <?php _t("Bloqueado"); ?>  
+            <?php _t("Mujer"); ?>  
         </label>
      </div>
    </div> 
@@ -147,6 +149,22 @@
      <label for="contactos_linkedin" class="col-sm-2 control-label"><?php _t("Linkedin"); ?></label> 
      <div class="col-sm-10"> 
        <input type="text" class="form-control" name="contactos_linkedin" id="contactos_linkedin" placeholder="<?php _t("Linkedin"); ?>" value="<?php echo $contactos_linkedin; ?>"   > 
+     </div> 
+   </div> 
+
+
+   <script>
+            $( function() {
+              $( "#contactos_fecha_nacimiento" ).datepicker();
+            } );
+            </script>
+ <div class="form-group"> 
+     <label for="contactos_fecha_nacimiento" class="col-sm-2 control-label"><?php _t("Fecha_nacimiento"); ?></label> 
+     <div class="col-sm-3"> 
+     <div class="input-group"> 
+       <input type="text" class="form-control" name="contactos_fecha_nacimiento" id="contactos_fecha_nacimiento" placeholder="<?php _t("aaaa-mm-dd"); ?>" value="<?php echo $contactos_fecha_nacimiento; ?>"   > 
+     <div class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></div> 
+     </div> 
      </div> 
    </div> 
 
