@@ -15,6 +15,8 @@ include "../admin/paginacion.php";
 include "../extenciones/funciones/contactos.php";
 include "../extenciones/funciones/casas.php";
 include "../extenciones/funciones/empresas.php";
+include "../extenciones/funciones/tipos_contenido.php";
+
 _incluir_funciones();
 $aqui_seccion = "";
 $aqui_pagina = "";
