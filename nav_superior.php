@@ -11,16 +11,19 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#"><?php _t("Inicio"); ?></a></li>
+                <li class="active"><a href="#"><?php _t("Ubicacion"); ?></a></li>                
+                <li><a href="#"><?php _t("Galeria fotos"); ?></a></li>
+                <li><a href="#"><?php _t("Reservas"); ?></a></li>
+                <li><a href="#"><?php _t("Contacto"); ?></a></li>
 
-                <?php echo _menu_top('publico_superior'); ?>
+                <?php //echo _menu_top('publico_superior'); ?>
 
 
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" 
                        data-toggle="dropdown" 
                        role="button" aria-haspopup="true" 
-                       aria-expanded="false"><?php _t("Ser"); ?> <span class="caret"></span></a>
+                       aria-expanded="false"><?php _t("Servicios"); ?> <span class="caret"></span></a>
                     <ul class="dropdown-menu">
 
                         <li><a href="pagina.php"><?php _t("Alquiler auto"); ?></a></li>
