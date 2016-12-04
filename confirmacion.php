@@ -1,5 +1,5 @@
-<?php
-include "./admin/traductor.php";
+<?php 
+include "header.php";
 ?>
 <!DOCTYPE html>
 <html lang="es">

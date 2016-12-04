@@ -20,7 +20,7 @@
             
             
             
-            <?php _menu_top(); ?>
+            <?php _menu_top('top'); ?>
             
             
             

@@ -1,3 +1,6 @@
+<?php 
+include "header.php";
+?>
 <!DOCTYPE html>
 <html lang="es">
     <head>
@@ -9,7 +12,7 @@
         <meta name="author" content="">
         <link rel="icon" href="favicon.ico">
 
-        <title>Carousel Template for Bootstrap</title>
+        <title><?php echo "$config_nombre_web"; ?></title>
 
         <!-- Bootstrap core CSS -->
         <link href="includes/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
